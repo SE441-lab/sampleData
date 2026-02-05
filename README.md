@@ -36,6 +36,11 @@ mongoimport --db superData --collection os --jsonArray --file os.json
 
 ## Example Query
 
+First start mongodb by `systemctl start mongod` 
+Check status by `systemctl status mongod`
+Now open interactive mongod shell `mongosh`
+
+
 ```js
 db.textbooks.findOne({ id: 1 })
 ```
