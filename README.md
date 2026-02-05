@@ -30,14 +30,8 @@ Each document represents a textbook commonly used in software engineering educat
 ## Importing the Data
 
 ```bash
-mongoimport \
-  --db superData \
-  --collection textbooks \
-  --jsonArray \
-  --file textbooks_data.json \
-  --username <USER> \
-  --password <PASSWORD> \
-  --authenticationDatabase superData
+mongoimport --db superData --collection planets --jsonArray --file textbook.json
+mongoimport --db superData --collection os --jsonArray --file os.json
 ```
 
 ## Example Query
