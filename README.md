@@ -45,9 +45,5 @@ Now open interactive mongod shell `mongosh`
 db.textbooks.findOne({ id: 1 })
 ```
 
-## Intended Use
-
-* Backend API demos (Node.js + Express + MongoDB)
-* CI/CD and Jenkins pipeline testing
 
 ---
